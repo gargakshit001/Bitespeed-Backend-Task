@@ -6,7 +6,7 @@
     "start": "node dist/app.js",
     "dev": "ts-node src/app.ts",
     "migrate": "prisma migrate dev",
-    "generate": "prisma generate"
+    "generate": "npx prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^6.13.0",
