@@ -5,7 +5,7 @@
     "build": "tsc",
     "start": "node dist/app.js",
     "dev": "ts-node src/app.ts",
-    "migrate": "prisma migrate dev",
+    "migrate": "npx prisma migrate dev",
     "generate": "npx prisma generate"
   },
   "dependencies": {
